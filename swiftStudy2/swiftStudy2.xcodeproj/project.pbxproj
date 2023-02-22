@@ -22,6 +22,8 @@
 		9B2C71E729A521480015C165 /* CHAT-SHIRE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C71DD29A521480015C165 /* CHAT-SHIRE.jpg */; };
 		9B2C71E929A5217E0015C165 /* 꽃갈피2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C71E829A5217E0015C165 /* 꽃갈피2.jpg */; };
 		9B2F945929A3A70B00129B05 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F945829A3A70B00129B05 /* imageViewController.swift */; };
+		9BB5DEC029A5B38B008BC8E0 /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5DEBF29A5B38B008BC8E0 /* lamp-remove.png */; };
+		9BB5DEC229A5B3CC008BC8E0 /* alertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5DEC129A5B3CC008BC8E0 /* alertViewController.swift */; };
 		9BB80A79299E2E89003FB771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB80A78299E2E89003FB771 /* AppDelegate.swift */; };
 		9BB80A7B299E2E89003FB771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB80A7A299E2E89003FB771 /* SceneDelegate.swift */; };
 		9BB80A7D299E2E89003FB771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB80A7C299E2E89003FB771 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		9B2C71DD29A521480015C165 /* CHAT-SHIRE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CHAT-SHIRE.jpg"; sourceTree = "<group>"; };
 		9B2C71E829A5217E0015C165 /* 꽃갈피2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "꽃갈피2.jpg"; sourceTree = "<group>"; };
 		9B2F945829A3A70B00129B05 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		9BB5DEBF29A5B38B008BC8E0 /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-remove.png"; sourceTree = "<group>"; };
+		9BB5DEC129A5B3CC008BC8E0 /* alertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertViewController.swift; sourceTree = "<group>"; };
 		9BB80A75299E2E89003FB771 /* swiftStudy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftStudy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB80A78299E2E89003FB771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BB80A7A299E2E89003FB771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				9B2C71C529A51F0F0015C165 /* album */,
 				9B0EC24429A3C95B00940C63 /* lamp_off.png */,
 				9B0EC24629A3C96A00940C63 /* lamp_on.png */,
+				9BB5DEBF29A5B38B008BC8E0 /* lamp-remove.png */,
+				9BB5DEC129A5B3CC008BC8E0 /* alertViewController.swift */,
 				9BB80A78299E2E89003FB771 /* AppDelegate.swift */,
 				9B2C71C129A4EEB70015C165 /* datePickerViewController.swift */,
 				9BB80A7A299E2E89003FB771 /* SceneDelegate.swift */,
@@ -185,6 +191,7 @@
 				9BB80A85299E2E8A003FB771 /* LaunchScreen.storyboard in Resources */,
 				9B2C71E329A521480015C165 /* Modern_Times.jpg in Resources */,
 				9BB80A82299E2E8A003FB771 /* Assets.xcassets in Resources */,
+				9BB5DEC029A5B38B008BC8E0 /* lamp-remove.png in Resources */,
 				9B2C71E729A521480015C165 /* CHAT-SHIRE.jpg in Resources */,
 				9B2C71E629A521480015C165 /* Love_Poem.jpg in Resources */,
 				9B2C71E229A521480015C165 /* 조각집.jpg in Resources */,
@@ -204,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB80A7D299E2E89003FB771 /* ViewController.swift in Sources */,
+				9BB5DEC229A5B3CC008BC8E0 /* alertViewController.swift in Sources */,
 				9BB80A79299E2E89003FB771 /* AppDelegate.swift in Sources */,
 				9B2C71C429A51ECA0015C165 /* pickerViewController.swift in Sources */,
 				9B2F945929A3A70B00129B05 /* imageViewController.swift in Sources */,

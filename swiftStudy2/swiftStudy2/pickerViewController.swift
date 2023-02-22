@@ -40,4 +40,8 @@ class pickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         lblImageFileName.text = imageFileName[row]
         imageView.image = imageArray[row]
     }
+    
+    @IBAction func backBtn(_ sender: UIBarButtonItem) {
+        self.dismiss(animated:true)
+    }
 }
