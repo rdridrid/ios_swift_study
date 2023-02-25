@@ -23,6 +23,7 @@
 		9B2C71E729A521480015C165 /* CHAT-SHIRE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C71DD29A521480015C165 /* CHAT-SHIRE.jpg */; };
 		9B2C71E929A5217E0015C165 /* 꽃갈피2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C71E829A5217E0015C165 /* 꽃갈피2.jpg */; };
 		9B2F945929A3A70B00129B05 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F945829A3A70B00129B05 /* imageViewController.swift */; };
+		9B3045C929AA040C0010D45A /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3045C829AA040C0010D45A /* mapViewController.swift */; };
 		9B749B7629A7BED8003B150C /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B749B7529A7BED8003B150C /* webViewController.swift */; };
 		9BB5DEC029A5B38B008BC8E0 /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5DEBF29A5B38B008BC8E0 /* lamp-remove.png */; };
 		9BB5DEC229A5B3CC008BC8E0 /* alertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5DEC129A5B3CC008BC8E0 /* alertViewController.swift */; };
@@ -51,6 +52,7 @@
 		9B2C71DD29A521480015C165 /* CHAT-SHIRE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CHAT-SHIRE.jpg"; sourceTree = "<group>"; };
 		9B2C71E829A5217E0015C165 /* 꽃갈피2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "꽃갈피2.jpg"; sourceTree = "<group>"; };
 		9B2F945829A3A70B00129B05 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		9B3045C829AA040C0010D45A /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		9B749B7529A7BED8003B150C /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		9BB5DEBF29A5B38B008BC8E0 /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-remove.png"; sourceTree = "<group>"; };
 		9BB5DEC129A5B3CC008BC8E0 /* alertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				9B2B0D7E29A8F2960013ACFB /* htmlView.html */,
 				9BB80A78299E2E89003FB771 /* AppDelegate.swift */,
 				9B2C71C129A4EEB70015C165 /* datePickerViewController.swift */,
+				9B3045C829AA040C0010D45A /* mapViewController.swift */,
 				9BB80A7A299E2E89003FB771 /* SceneDelegate.swift */,
 				9B2C71C329A51ECA0015C165 /* pickerViewController.swift */,
 				9B2F945829A3A70B00129B05 /* imageViewController.swift */,
@@ -223,6 +226,7 @@
 				9B2C71C429A51ECA0015C165 /* pickerViewController.swift in Sources */,
 				9B2F945929A3A70B00129B05 /* imageViewController.swift in Sources */,
 				9B2C71C229A4EEB70015C165 /* datePickerViewController.swift in Sources */,
+				9B3045C929AA040C0010D45A /* mapViewController.swift in Sources */,
 				9BB80A7B299E2E89003FB771 /* SceneDelegate.swift in Sources */,
 				9B749B7629A7BED8003B150C /* webViewController.swift in Sources */,
 			);
