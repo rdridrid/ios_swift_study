@@ -15,5 +15,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnMoveImageView(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 1 //Index = 0은 시작화면
+    }
+    
+    @IBAction func btnMoveDatePickerView(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 2
+    }
+    
 }
 
