@@ -7,8 +7,15 @@
 
 import UIKit
 
+var items = ["책 구매", "철수와 약속", "스터디 준비하기"]
+var itemsImageFile = ["cart.png", "clock.png", "pencil.png"]
+
+
 class TableViewController: UITableViewController {
 
+    @IBOutlet var tvListView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,23 +30,23 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1 //테이블 안에 섹션 하나
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return items.count //item의 개수로
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
 
         // Configure the cell...
+        cell.textLabel?.text = items[(indexPath as NSIndexPath).row] //라벨 대입
+        cell.imageView?.image = UIImage(named: itemsImageFile[(indexPath as NSIndexPath).row]) //이미지 대입
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
