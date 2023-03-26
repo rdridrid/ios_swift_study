@@ -27,6 +27,10 @@ class AddViewController: UIViewController {
     }
     */
     @IBAction func btnAddItem(_ sender: UIButton) {
+        items.append(tfAddItem.text!)
+        itemsImageFile.append("clock.png")
+        tfAddItem.text=""
+        _ = navigationController?.popViewController(animated: true) //루트 뷰인 테이블 뷰로 돌아감
     }
     
 }
